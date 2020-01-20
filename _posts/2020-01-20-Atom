@@ -1,0 +1,11 @@
+---
+layout: post
+title: Atom - The Hackable Text Editor
+---
+
+### Shortcuts
+<kbd>Ctrl</kbd>+<kbd>/</kbd> (Un)Comments a block of code in the respective language (`#` in python, `//` in java*..)
+
+### Addons
+json pretty
+sftp
