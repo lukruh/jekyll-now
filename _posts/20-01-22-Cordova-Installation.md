@@ -25,12 +25,31 @@ sudo apt install npm
 and try again.
 
 ## Install Android Studio
-
-Some dependencies are required to build software for android devices. The easiest way to solve them is installing the Android Studio IDE.
-Download and extract the latest release (~700MB) and navigate to the exctracted bin folder and run the start script to set some initial configurations.
+Some dependencies are required to build software for android devices. The easiest way to solve them is installing the Android Studio IDE as recommended at the [Cordova Website](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html#requirements-and-support).
+[Download](https://developer.android.com/studio/#downloads) and extract the latest release (~700MB) and navigate to the exctracted bin folder and run the start script to set some initial configurations.
 
 ```shell
 cd path/to/android-studio/bin
 ./studio.sh
 ```
 
+Click through the installation wizzard and decide if you want to at a virtual device (to test your app in an emulator on your pc) at the cost of a 1.5GB download. 
+
+Start Android Studio (maybe you have to create an empty project if you cant skip that step).
+Open the Android SDK Manager (Tools > SDK Manager) and install the sdk api 19-28 which is the latest supported from cordova (2020/01).
+
+![screenshot](img/screen_sdk_api.png)
+
+Add this line to your `~.bashrc` with the correct path:
+```bash
+export PATH=${PATH}:/home/user/Android/Sdk/platform-tools:/home/user/Android/Sdk/tools
+```
+
+## Install Gradle
+
+Gradle is a build tool that is used to build the Android App Package file `.apk`.
+```shell
+sudo apt install gradle
+```
+
+## Create the HelloWorld app
