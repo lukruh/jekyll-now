@@ -44,6 +44,12 @@ Add this line to your `~.bashrc` with the correct path:
 ```bash
 export PATH=${PATH}:/home/user/Android/Sdk/platform-tools:/home/user/Android/Sdk/tools
 ```
+and run
+```shell
+source ~/.bashrc
+```
+
+Optionally an emulator can be configured following the [Cordova Manual](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html#setting-up-an-emulator).
 
 ## Install Gradle
 
