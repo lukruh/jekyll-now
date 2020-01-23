@@ -22,13 +22,16 @@ jupyter, remote shell, teamwork, share code,
 
 ### Choose an Editor
 
-### Find and Install Packages
 
 ## Installation
 (ana)conda
 ### win
 ### linux
 ### mac
+
+## Find and Install Packages
+A very common package (many other packages are based on this too) is `numpy`. It's a package for numerical calculations and compared to the core package `math` (which does not need to be manually installed), it provides efficient methods to work with multidimensional arrays and a very large collection of mathematical operations. TODO: c++ bindings
+
 
 ## Start Coding
 
