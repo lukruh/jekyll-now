@@ -22,7 +22,7 @@ Source: https://stackoverflow.com/a/26189728/7268121
   \end{frame}
 ```
 
-![Shifted Images](images/shifted.gif)
+![Shifted Images](/images/shifted.gif)
 
 ## Solution
 
@@ -39,4 +39,4 @@ The space between the alternating figures are generated, when the pdf is rendere
   \end{frame}
 ```
 
-![Fixed Images](images/fixed.gif)
+![Fixed Images](/images/fixed.gif)
