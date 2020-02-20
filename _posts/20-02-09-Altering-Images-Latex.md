@@ -2,11 +2,13 @@
 layout: post
 title: Fix Shifting of Alterning Images in Latex Beamer Class
 tags: latex,beamer,layout,presentation,trick
+sources:
+  - https://stackoverflow.com/a/26189728/7268121
 ---
 
-Intro..
+Using the Latex Beamer class to create presentations, is a good idea to create clean, compatible, scientific presentations. Now or than tiny hurdles can ruin drive you crazy, when you don't know how to fix them.  One of these is the small but noticeable shift of altering images in one slide, caused by ordinary spaces or linebreaks. The following shows the issue and how to fix it.
 
-Source: https://stackoverflow.com/a/26189728/7268121
+
 
 ## Example
 
